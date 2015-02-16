@@ -3,7 +3,7 @@ Contributors: robosoft
 Donate link: http://www.robosoft.co/
 Tags: google map, maps plugin, google, markers, map, widget map, post map, page map, google api
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
