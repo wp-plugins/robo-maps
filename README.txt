@@ -14,6 +14,8 @@ Robo Maps it's easy and powerful Google maps plugin with maps markers. Google Ma
 
 == Description ==
 
+#### Robo Maps - Most Easy and Powerful plugin to create a Google Map on WordPress.
+
 Robo Maps it's easy and very powerful Google maps plugin for WordPress. Plugin implemented in WordPress native style, 
 used all wordpress native API and core functionality. You can install plugin absolutely FREE in wordpress admin 
 section or you can purchase RoboMaps Pro version in our website. Robo Maps make you able to insert google map into 
