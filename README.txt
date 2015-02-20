@@ -1,7 +1,7 @@
 ﻿=== Robo Maps - Google Maps Plugin ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/
-Tags: google map, google maps, maps plugin, google, markers, map, widget map, post map, page map, google api
+Tags: admin, plugin, comments, gmaps, custom google maps, google map plugin, google map, google maps, best google maps, best maps, maps plugin, custom google map, google map widget, Custom Google Map, Custom Google Maps, google, markers, map, maps, widget map, post map, page map, google api, map markers, wp maps, wp google maps, wp google map, easy map, map plugin, location, marker, latitude, longitude, map widget
 Requires at least: 3.3
 Tested up to: 4.1
 Stable tag: 1.0
