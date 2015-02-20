@@ -1,15 +1,15 @@
-﻿=== Robo Maps ===
+﻿=== Robo Maps - Google Maps Plugin ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/
-Tags: google map, maps plugin, google, markers, map, widget map, post map, page map, google api
-Requires at least: 3.0.1
+Tags: google map, google maps, maps plugin, google, markers, map, widget map, post map, page map, google api
+Requires at least: 3.3
 Tested up to: 4.1
 Stable tag: 1.0
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
-Robo Maps it's easy and very powerful Google maps plugin for WordPress. Plugin implemented in native style, used all wordpress API's
+Robo Maps it's easy and powerful Google maps plugin with maps markers. Google Maps in native Wordpress style. Multiply maps on page.
 
 
 == Description ==
@@ -17,7 +17,7 @@ Robo Maps it's easy and very powerful Google maps plugin for WordPress. Plugin i
 Robo Maps it's easy and very powerful Google maps plugin for WordPress. Plugin implemented in WordPress native style, 
 used all wordpress native API and core functionality. You can install plugin absolutely FREE in wordpress admin 
 section or you can purchase RoboMaps Pro version in our website. Robo Maps make you able to insert google map into 
-your WordPress post, page or widget easily! Just use shortcode wizard to define all options [More Details](http://robosoft.co).
+your WordPress post, page or widget easily! Just use shortcode wizard to define all options [Robo Google Maps](http://robosoft.co).
 
 = Robo Maps Key Features =
  
@@ -34,7 +34,7 @@ your WordPress post, page or widget easily! Just use shortcode wizard to define 
 *   Priority support tickets
 *   Access to updates and new features
 
-[Robo Maps Details and Demos](http://robosoft.co)
+[Robo Google Maps Details and Demos](http://robosoft.co)
 
 == Installation ==
 
