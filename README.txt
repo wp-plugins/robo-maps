@@ -21,22 +21,70 @@ used all wordpress native API and core functionality. You can install plugin abs
 section or you can purchase RoboMaps Pro version in our website. Robo Maps make you able to insert google map into 
 your WordPress post, page or widget easily! Just use shortcode wizard to define all options [Robo Google Maps](http://robosoft.co).
 
-= Robo Maps Key Features =
+= Robo Google Maps Lite Key Features =
  
-*   Mobile optimized
-*   Optimized javascript code
-*   OSM custom map type
-*   Minimaps
-*   Fully responsive 
-*   Map preview in admin section
-*   Listing of the saved maps (no limits)
-*   Listing of the saved markers (no limits)
-*   Long and short map code
-*   Access to support ticket system
-*   Priority support tickets
-*   Access to updates and new features
+*   **Mobile optimized maps** - all robo google maps code optimized for mobile devices, so you'll not have any problems with maps
+*   **Optimized javascript code** - optmized havascript code make robo google maps even more fast
+*   **ROADMAP Google maps view** - implemented ROADMAP google maps view
+*   **SATELLITE Google maps view** - implemented SATELLITE google maps view
+*   **HYBRID Google maps view** - implemented HYBRID google maps view
+*   **TERRAIN Google maps view** - implemented TERRAIN google maps view
+*   **Customizable Google maps size** - you can change height and width of the map in Robo maps settings. Size could be defined in px or %
+*   **Define Google map position with Address** - define target position of the map as Address
+*   **Define Google map position with Coordinates** - define target position of the map as Coordinates
+*   **Map Zoom** - define scale of the map in the range from 0 to 18
+*   **Short Link** - insert pre-configured Google map with short link without list of parameters using Robo Google Maps plugin
+*   **Scroll Wheel Map Control** - Enable/Disable Google map control by mouse wheel scroll
+*   **Google Maps Stree View** - Enable/Disable street view map option
+*   **Map Zoom Control** - Enable/Disable map zoom control option
+*   **Map Pan Control** - Enable/Disable map pan control option
+*   **Overview Google Map** - Enable/Disable google map overview option
+*   **Google Map Type** - Enable/Disable option for select google map type of view
+*   **Minimaps** - Show/Hide minimap control
+*   **Fully responsive** - maps are fully responsive, will work correctly on different screen sizes
+*   **Google maps tag generator for Posts** - you can easily insert Google maps into post with tag generator
+*   **Google maps tag generator for Pages** - you can easily insert Google maps into page with tag generator
+*   **Insert Google Map in Widget** - with Robo Google Maps plugin you can insert maps into widget
+*   **Access to updates and new features** - get access to free maps updates 
 
-[Robo Google Maps Details and Demos](http://robosoft.co)
+= Robo Google Maps Pro Key Features =
+
+*   **Mobile optimized maps** - all robo google maps code optimized for mobile devices, so you'll not have any problems with maps
+*   **Optimized javascript code** - optmized havascript code make robo google maps even more fast
+*   **OSM Google maps view** - implemented OSM google maps view
+*   **ROADMAP Google maps view** - implemented ROADMAP google maps view
+*   **SATELLITE Google maps view** - implemented SATELLITE google maps view
+*   **HYBRID Google maps view** - implemented HYBRID google maps view
+*   **TERRAIN Google maps view** - implemented TERRAIN google maps view
+*   **Customizable Google maps size** - you can change height and width of the map in Robo maps settings. Size could be defined in px or %
+*   **Define Google map position with Address** - define target position of the map as Address
+*   **Define Google map position with Coordinates** - define target position of the map as Coordinates
+*   **Map Zoom** - define scale of the map in the range from 0 to 18
+*   **Short Link** - insert pre-configured Google map with short link without list of parameters using Robo Google Maps plugin
+*   **Scroll Wheel Map Control** - Enable/Disable Google map control by mouse wheel scroll
+*   **Google Maps Stree View** - Enable/Disable street view map option
+*   **Map Zoom Control** - Enable/Disable map zoom control option
+*   **Map Pan Control** - Enable/Disable map pan control option
+*   **Overview Google Map** - Enable/Disable google map overview option
+*   **Google Map Type** - Enable/Disable option for select google map type of view
+*   **Minimaps** - Show/Hide minimap control
+*   **Fully responsive** - maps are fully responsive, will work correctly on different screen sizes
+*   **Google maps tag generator for Posts** - you can easily insert Google maps into post with tag generator
+*   **Google maps tag generator for Pages** - you can easily insert Google maps into page with tag generator
+*   **Insert Google Map in Widget** - with Robo Google Maps plugin you can insert maps into widget
+*   **Map preview in admin section** - live preview of the map during configuration in backend
+*   **Listing of the saved maps (no limits)** - you can created as much Google maps as you wish and save it in listing 
+*   **Listing of the saved markers (no limits)** - you can created as much Google maps markers as you wish and save it in listing 
+*   **Long and short map code** - for the professional Robo google maps plugin we implement short code withour long list of the parameters
+*   **Access to support ticket system** - get access to the support sections with tickets system
+*   **Priority support tickets** - as customer of the professional version you have higher priority in support section
+*   **Access to updates and new features** - get access to free maps updates 
+
+[Technical Support for Robo Google Maps](http://robosoft.co)
+
+[Find More Details about Robo Google Maps](http://robosoft.co) 
+
+[Robo Google Maps Demos](http://robosoft.co)
 
 == Installation ==
 
