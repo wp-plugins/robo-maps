@@ -4,7 +4,7 @@ Donate link: http://www.robosoft.co/
 Tags: admin, plugin, comments, gmaps, custom google maps, google map plugin, google map, google maps, best google maps, best maps, maps plugin, custom google map, google map widget, Custom Google Map, Custom Google Maps, google, markers, map, maps, widget map, post map, page map, google api, map markers, wp maps, wp google maps, wp google map, easy map, map plugin, location, marker, latitude, longitude, map widget
 Requires at least: 3.3
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -122,7 +122,14 @@ You can insert maps short code into widgets, which you can copy from the maps ma
 = 1.0 =
 *   First release
 
+= 1.0.1 = 
+
+*   Small fix of the functionality
+
 == Upgrade Notice ==
 
 = 1.0 =
   This is first release of the plugin
+  
+= 1.0.1 = 
+  Small fix of the functionality

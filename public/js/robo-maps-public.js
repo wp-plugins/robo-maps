@@ -1,7 +1,7 @@
 /**
  * @product    RoboMap
  * @link       http://robosoft.co
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Robo_Maps
  * @subpackage Robo_Maps/public
@@ -37,8 +37,6 @@ jQuery(function(){
 			var map = obj.data('map');
 			if(map) options.maptype = map;
 
-			
-
 			options.scrollwheel = obj.data('scroll');
 
 			var controlsOptions = {};
@@ -64,7 +62,6 @@ jQuery(function(){
 					});
 			}
 			
-			//console.log(options);
 			obj.gMap(options);
 		}
 	});

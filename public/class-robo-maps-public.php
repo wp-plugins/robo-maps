@@ -44,9 +44,17 @@ class Robo_Maps_Public {
 
 	}
 	public function render_showmap(  $atts, $content = null ){
-		//print_r($atts);print_r($content);
-		$lng =$lat = $zoom = $marker= 0;
-		$scroll = $street = $zoomcontrol = $pan = $mapcontrol = $overview= 0;
+	
+		$lng 	= 0;
+		$lat 	= 0;
+		$zoom 	= 0;
+		$marker = 0;
+		$scroll = 0;
+		$street = 0;
+		$zoomcontrol 	= 0;
+		$pan 			= 0;
+		$mapcontrol 	= 0;
+		$overview 		= 0;
 		
 		$sizeh = $sizew = '';
 		$address = $map = '';
@@ -59,7 +67,6 @@ class Robo_Maps_Public {
 			if(isset($atts['caption'])) $caption = htmlspecialchars( $atts['caption'] );
 
 			if(isset($atts['map'])) $map = $atts['map'];
-
 
 			if(isset($atts['scroll'])) $scroll = (int) $atts['scroll'];
 			if(isset($atts['street'])) $street = (int) $atts['street'];
@@ -92,7 +99,6 @@ class Robo_Maps_Public {
 						.'data-pan="'.$pan.'" '
 						.'data-mapcontrol="'.$mapcontrol.'" '
 						.'data-overview="'.$overview.'" '
-										
 						.'style="width: '.$sizew.'; height: '.$sizeh.';" '
 						.'>'
 					.'</div>';
