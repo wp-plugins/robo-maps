@@ -117,6 +117,17 @@ You can insert maps short code into widgets, which you can copy from the maps ma
 4. Markers management settings
 5. Saved maps listing
 
+== Other Notes ==
+
+= Other Notes =
+Minimum requirements for Robo Maps.
+
+    WordPress 3.3
+    PHP 5.x
+    MySQL 5.x
+
+If any problem occurs, please contact us.
+
 == Changelog ==
  
 = 1.0 =
