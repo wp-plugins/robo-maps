@@ -108,6 +108,10 @@ You can insert Robo Maps into wordpress post, page or widget. If you have some q
 
 You can insert maps short code into widgets, which you can copy from the maps manager in post or page section.  If you have some questions related with our plugin feel free to contact our support team we happy to help you!
 
+= How i can manage markers in Robo Maps? =
+
+When you open shortcode button generator in settings you'll find Markers tab. Markers tab contain listing of the existing markers which you already saved. There you can open existing markers for edit or remove some of them. If you need to add more markers use Add Marker button for this proposal
+
 
 == Screenshots ==
 
