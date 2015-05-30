@@ -6,15 +6,13 @@
  * @author  Mario Estrada <me@mario.ec> based on original plugin by Cedric Kastner <cedric@nur-text.de>
  * @version 2.1.5
  */
-/* global google */
-(function($)
-{
+
+(function($){
   // Main plugin function
   $.fn.gMap = function(options, methods_options)
   {
     // Optional methods
-    switch(options)
-    {
+    switch(options){
     case 'addMarker':
       return $(this).trigger(
         'gMap.addMarker',
@@ -41,11 +39,9 @@
       var $geocoder = new google.maps.Geocoder();
 
       // Check for address to center on
-      if (opts.address)
-      {
+      if (opts.address){
         // Get coordinates for given address and center the map
-        $geocoder.geocode(
-          {
+        $geocoder.geocode({
             address: opts.address
           }, function(gresult, status)
           {
@@ -56,25 +52,18 @@
         );
       }else{
         // Check for coordinates to center on
-        if (opts.latitude && opts.longitude)
-        {
+        if (opts.latitude && opts.longitude){
           // Center map to coordinates given by option
           $gmap.setCenter(new google.maps.LatLng(opts.latitude, opts.longitude));
-        }
-        else
-        {
+        }else{
           // Check for a marker to center on (if no coordinates given)
-          if ($.isArray(opts.markers) && opts.markers.length > 0)
-          {
+          if ($.isArray(opts.markers) && opts.markers.length > 0){
             // Check if the marker has an address
-            if (opts.markers[0].address)
-            {
+            if (opts.markers[0].address){
               // Get the coordinates for given marker address and center
-              $geocoder.geocode(
-                {
+              $geocoder.geocode({
                   address: opts.markers[0].address
-                }, function(gresult, status)
-                {
+                }, function(gresult, status){
                   if(gresult && gresult.length > 0) {
                     $gmap.setCenter(gresult[0].geometry.location);
                   }
@@ -117,8 +106,7 @@
       marker_icon.anchor = new google.maps.Point(opts.icon.iconanchor[0], opts.icon.iconanchor[1]);
       gicon.setIcon(marker_icon);
 
-      if(opts.icon.shadow)
-      {
+      if(opts.icon.shadow){
         marker_shadow = new google.maps.MarkerImage(opts.icon.shadow);
         marker_shadow.size = new google.maps.Size(opts.icon.shadowsize[0], opts.icon.shadowsize[1]);
         marker_shadow.anchor = new google.maps.Point(opts.icon.shadowanchor[0], opts.icon.shadowanchor[1]);
@@ -126,8 +114,7 @@
       }
 
       // Bind actions
-      $(this).bind('gMap.centerAt', function(e, latitude, longitude, zoom)
-      {
+      $(this).bind('gMap.centerAt', function(e, latitude, longitude, zoom){
         if(zoom) {
           $gmap.setZoom(zoom);
         }
@@ -145,8 +132,7 @@
       });
 
       var last_infowindow;
-      $(this).bind('gMap.addMarker', function(e, latitude, longitude, content, icon, popup)
-      {
+      $(this).bind('gMap.addMarker', function(e, latitude, longitude, content, icon, popup){
         var marker_icon;
         var marker_shadow;
         var glatlng = new google.maps.LatLng(parseFloat(latitude), parseFloat(longitude));
@@ -155,8 +141,7 @@
           position: glatlng
         });
 
-        if(icon)
-        {
+        if(icon){
           marker_icon = new google.maps.MarkerImage(icon.image);
           marker_icon.size = new google.maps.Size(icon.iconsize[0], icon.iconsize[1]);
           marker_icon.anchor = new google.maps.Point(icon.iconanchor[0], icon.iconanchor[1]);
