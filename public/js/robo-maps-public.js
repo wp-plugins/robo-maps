@@ -17,8 +17,9 @@ jQuery(function(){
 			var address = obj.data('address');
 			var options = {};
 
-			if(address)  options.address = address;
-			else if(coorLat && coorLng){
+			if(address){
+				options.address = address;
+			} else if(coorLat && coorLng){
 				options.latitude = coorLat;
 				options.longitude = coorLng;
 			}
