@@ -12,43 +12,16 @@
 */
 class Robo_Maps_Admin {
 
-	/**
-	 * The ID of this plugin.
-	 *
-	 * @since    1.0.0
-	 * @access   private
-	 * @var      string    $robo_maps    The ID of this plugin.
-	 */
 	private $robo_maps;
 
-	/**
-	 * The version of this plugin.
-	 *
-	 * @since    1.0.0
-	 * @access   private
-	 * @var      string    $version    The current version of this plugin.
-	 */
 	private $version;
 
-	/**
-	 * Initialize the class and set its properties.
-	 *
-	 * @since    1.0.0
-	 * @var      string    $robo_maps       The name of this plugin.
-	 * @var      string    $version    The version of this plugin.
-	 */
 	public function __construct( $robo_maps, $version ) {
 		$this->robo_maps = $robo_maps;
 		$this->version = $version;
 	}
 
-	/**
-	 * Register the stylesheets for the Dashboard.
-	 *
-	 * @since    1.0.0
-	 */
 	public function enqueue_styles() {
-
 		$screen = get_current_screen();
 		if( $screen->base=='post' || $screen->base=='edit' ||  $screen->base=='toplevel_page_robo-maps' ){
 			wp_enqueue_style("wp-jquery-ui-dialog");
@@ -60,22 +33,17 @@ class Robo_Maps_Admin {
 				wp_enqueue_style( $this->robo_maps."_magnific", ROBO_MAPS_URL . 'addons/magnific/magnific-popup.css', array(), $this->version, 'all' );
 			}
 		}
-		//wp_enqueue_style( $this->robo_maps."_bootstrap_slider", ROBO_MAPS_URL . 'addons/slider/css/bootstrap-slider.css', array(), $this->version, 'all' );
-
-		//wp_enqueue_style( $this->robo_maps."_magnific", ROBO_MAPS_URL . 'addons/magnific/magnific-popup.css', array(), $this->version, 'all' );
-		//wp_enqueue_style( $this->robo_maps."_magnific", ROBO_MAPS_URL . 'addons/magnific/magnific-popup.css', array(), $this->version, 'all' );
-		//wp_enqueue_style( $this->robo_maps."_pgwmodal", ROBO_MAPS_URL . 'addons/PgwModal/pgwmodal.css', array(), $this->version, 'all' );
-		
 	}
 
 	public function setup_menu(){
 		add_menu_page( 'Robo Maps', 'Robo Maps', 'manage_options', 'robo-maps', array( $this, 'setup_form'), 'dashicons-location-alt' );
 	}
+
 	public function setup_form(){ 
 		include( ROBO_MAPS_PATH . 'admin/partials/robo-maps-admin-display.php');
 	}
-	public function setup_button(){ 
 
+	public function setup_button(){ 
 		echo '<a href="#robo-map-modal" class="button" id="robo-map-tag" >'
 				.'<span class="bootstrap-wrapper"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>'
 				.'</span>'.__('Add Robo Map').'</a>';
@@ -83,17 +51,7 @@ class Robo_Maps_Admin {
 	}
 
 	
-	/**
-	 * Register the JavaScript for the dashboard.
-	 *
-	 * @since    1.0.0
-	 */
 	public function enqueue_scripts() {
-
-		//wp_enqueue_script('accordion');
-		//
-		//wp_enqueue_script( $this->robo_maps."_pgwmodal", ROBO_MAPS_URL . 'addons/PgwModal/pgwmodal.js', array( 'jquery' ), $this->version, false );
-		//wp_enqueue_script( $this->robo_maps."_bootstrap_slider", ROBO_MAPS_URL . 'addons/slider/js/bootstrap-slider.js', array( 'jquery' ), $this->version, false );
 
 		$screen = get_current_screen();
 		if( $screen->base=='post' || $screen->base=='edit' ||  $screen->base=='toplevel_page_robo-maps' ){
