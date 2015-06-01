@@ -12,37 +12,15 @@
 */
 class Robo_Maps_Public {
 
-	/**
-	 * The ID of this plugin.
-	 *
-	 * @since    1.0.0
-	 * @access   private
-	 * @var      string    $robo_maps    The ID of this plugin.
-	 */
-	private $robo_maps;
 
-	/**
-	 * The version of this plugin.
-	 *
-	 * @since    1.0.0
-	 * @access   private
-	 * @var      string    $version    The current version of this plugin.
-	 */
+	private $robo_maps;
 	private $version;
 
-	/**
-	 * Initialize the class and set its properties.
-	 *
-	 * @since    1.0.0
-	 * @var      string    $robo_maps       The name of the plugin.
-	 * @var      string    $version    The version of this plugin.
-	 */
 	public function __construct( $robo_maps, $version ) {
-
 		$this->robo_maps = $robo_maps;
 		$this->version = $version;
-
 	}
+	
 	public function render_showmap(  $atts, $content = null ){
 	
 		$lng 	= 0;
