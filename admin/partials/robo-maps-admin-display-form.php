@@ -275,12 +275,6 @@ $proHtml = '<span class="label label-danger robo-map-prolink">'.__('Pro').'</spa
 				<div id="robo-map-tab-marker"  class="tab-pane fade" aria-labelledby="robomap-tab-label-marker" role="tabpanel">
 
 					<div class="pull-right">
-						<!-- <button id="robo-map-import-markers" class="btn btn-default">
-							<span class="glyphicon glyphicon-save tooltip-pro-version" aria-hidden="true"></span>
-							<?php _e('Import Markers'); ?>
-							<?php echo $proHtml; ?>
-						</button>
-						 -->
 						<button id="robo-map-add-marker" class="btn btn-default">
 							<span class="glyphicon glyphicon-plus-sign tooltip-pro-version" aria-hidden="true"></span>
 							<?php _e('Add Marker'); ?>
@@ -303,14 +297,6 @@ $proHtml = '<span class="label label-danger robo-map-prolink">'.__('Pro').'</spa
 						<tbody>
 						<tr>
 							<td colspan="6" align="center"><span class="glyphicon glyphicon-info-sign"></span> <?php _e("You don't have any saved markers"); ?></td>
-							<!-- <td>
-								<span class="glyphicon glyphicon-ok"></span>
-							</td>
-							<td></td>
-							<td>
-								<span class="glyphicon glyphicon-ok"></span>
-							</td>
-							<td></td> -->
 						</tr>
 					</tbody>
 
@@ -339,13 +325,7 @@ $proHtml = '<span class="label label-danger robo-map-prolink">'.__('Pro').'</spa
 						<tbody>
 						<tr>
 							<td colspan="4" align="center"><span class="glyphicon glyphicon-info-sign"></span><?php _e("You don't have any saved maps"); ?></td>
-							<!-- <td>
-								<span class="glyphicon glyphicon-ok"></span>
-							</td>
-							<td></td>
-							<td>
-								<span class="glyphicon glyphicon-ok"></span>
-							</td> -->
+
 						</tr>
 					</tbody>
 					
@@ -437,26 +417,3 @@ $proHtml = '<span class="label label-danger robo-map-prolink">'.__('Pro').'</spa
 <div class="clearfix"></div>
 </div>
 </div>
-
-<?php
-/*
-add_action( 'admin_footer', 'my_action_javascript' ); // Write our JS below here
-
-function my_action_javascript() { ?>
-<script type="text/javascript" >
-	jQuery(document).ready(function($) {
-
-		var data = {
-			'action': 'my_action',
-			'whatever': 1234
-		};
-
-		// since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
-		$.post(ajaxurl, data, function(response) {
-			alert('Got this from the server: ' + response);
-		});
-	});
-	</script>
-} */
-?>
-<!-- This file should primarily consist of HTML with a little bit of PHP. -->
