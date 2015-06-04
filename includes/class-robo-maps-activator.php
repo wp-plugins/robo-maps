@@ -12,16 +12,8 @@
 */
 class Robo_Maps_Activator {
 
-	/**
-	 * Short Description. (use period)
-	 *
-	 * Long Description.
-	 *
-	 * @since    1.0.0
-	 */
 	public static function activate() {
 		global $wpdb;
-
 		$charset_collate = $wpdb->get_charset_collate();
 		$table_name = $wpdb->prefix . "robo_maps";
 		$ex_t = $wpdb->get_var( "SHOW TABLES LIKE '$table_name'" );
@@ -37,5 +29,4 @@ class Robo_Maps_Activator {
 			dbDelta( $sql );
 		} 
 	}
-
 }
