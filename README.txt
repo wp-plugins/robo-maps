@@ -1,7 +1,7 @@
 ﻿=== Robo Maps - Google Maps Plugin ===
 Contributors: robosoft
 Donate link: http://www.robosoft.co/
-Tags: admin, plugin, comments, gmaps, custom google maps, google map plugin, google map, google maps, best google maps, best maps, maps plugin, custom google map, google map widget, Custom Google Map, Custom Google Maps, google, markers, map, maps, widget map, post map, page map, google api, map markers, wp maps, wp google maps, wp google map, easy map, map plugin, location, marker, latitude, longitude, map widget
+Tags: google map plugin, google map, google maps, best google maps, best maps, maps plugin, custom google map, google map widget, Custom Google Map, Custom Google Maps, google, markers, map, maps, widget map, post map, page map, google api, map markers, wp maps, wp google maps, wp google map, easy map, map plugin, location, marker, latitude, longitude, map widget, admin, plugin, comments, gmaps, custom google maps
 Requires at least: 3.3
 Tested up to: 4.2.1
 Stable tag: 1.0.1
@@ -50,6 +50,7 @@ your WordPress post, page or widget easily! Just use shortcode wizard to define 
 = Robo Google Maps Pro Key Features =
 
 *   **Mobile optimized maps** - all robo google maps code optimized for mobile devices, so you'll not have any problems with maps
+*   **KML files support** - implemented support of the additional maps layers import wih KML files
 *   **Optimized javascript code** - optmized havascript code make robo google maps even more fast
 *   **OSM Google maps view** - implemented OSM google maps view
 *   **ROADMAP Google maps view** - implemented ROADMAP google maps view
@@ -79,6 +80,18 @@ your WordPress post, page or widget easily! Just use shortcode wizard to define 
 *   **Access to support ticket system** - get access to the support sections with tickets system
 *   **Priority support tickets** - as customer of the professional version you have higher priority in support section
 *   **Access to updates and new features** - get access to free maps updates 
+
+=  Robo Maps Advantages =
+
+** KML layers ** In Robo Maps we implement support of the KML files. KML files make you able import polyline, polygon, polygon with holes, rectangle, circle, marker(icon), direction(route, path) into your google maps on your wordpress website. With KML you also can add more additional information into your google map markers. Customize text and add some additional content into maps marker popups. Like images, links, even videos.
+
+= Robo Maps Translation =
+
+Get a free copy of the Robo Maps Pro version as bonus for translating our plugin!
+**List of the languages we translate Robo Maps so far:**
+
+*  **English** - default
+
 
 [Technical Support for Robo Google Maps](http://robosoft.co)
 
