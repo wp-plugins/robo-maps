@@ -83,7 +83,7 @@ your WordPress post, page or widget easily! Just use shortcode wizard to define 
 
 =  Robo Maps Advantages =
 
-** KML layers ** In Robo Maps we implement support of the KML files. KML files make you able import polyline, polygon, polygon with holes, rectangle, circle, marker(icon), direction(route, path) into your google maps on your wordpress website. With KML you also can add more additional information into your google map markers. Customize text and add some additional content into maps marker popups. Like images, links, even videos.
+**KML layers** In Robo Maps we implement support of the KML files. KML files make you able import polyline, polygon, polygon with holes, rectangle, circle, marker(icon), direction(route, path) into your google maps on your wordpress website. With KML you also can add more additional information into your google map markers. Customize text and add some additional content into maps marker popups. Like images, links, even videos.
 
 = Robo Maps Translation =
 
