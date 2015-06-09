@@ -17,21 +17,14 @@ var roboMap = (function() {
         this.address = '';
         this.latitude = '';
         this.longitude = '';
-
         this.marker = 'show';
         this.caption = '';
-
         this.sizeW = '';
         this.sizeH = '';
-
         this.map = '';
-
         this.zoom = '';
-
         this.tagHTML = '';
-        
         this.error = 0;
-
         if( !this.readData() ) this.error = 1;
     };
     //----------------------------------------
@@ -95,15 +88,12 @@ var roboMap = (function() {
     return roboMap;
 })();
 
-
-
-
 jQuery(document).ready(function() {
 	
-    var addressRow = jQuery('#robo-map-row-address'),
-        coordRow = jQuery('#robo-map-row-coord'),
-        captionRow = jQuery('#robo-map-row-caption'),
-        preview = jQuery('#robo-map-preview');
+    var addressRow  = jQuery('#robo-map-row-address'),
+        coordRow    = jQuery('#robo-map-row-coord'),
+        captionRow  = jQuery('#robo-map-row-caption'),
+        preview     = jQuery('#robo-map-preview');
 
     jQuery('[name="robo-map-type-position"]').change(function(event) {
         addressRow.toggleClass('hidden');
