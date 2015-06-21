@@ -9,10 +9,10 @@
  * @author     RoboSoft Team <team@robosoft.co>
 */
 /*  Helper */
- .clearfix{
+.clearfix{
  	clear: both;
- }
- /*  */
+}
+
 #robo-map-preview{
 	margin-top: 25px;
 	
@@ -63,10 +63,10 @@
 }
 
 .bootstrap-wrapper{
-position: relative;	
+	position: relative;	
 }
-/* Plugin Page pp */
 
+/* Plugin Page pp */
 .robo-map-pp-logo-block{
 	float: left;
 	width: 100px;
