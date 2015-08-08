@@ -3,7 +3,7 @@ Contributors: robosoft
 Donate link: http://www.robosoft.co/
 Tags: google map plugin, google map, google maps, best google maps, best maps, maps plugin, custom google map, google map widget, Custom Google Map, Custom Google Maps, google, markers, map, maps, widget map, post map, page map, google api, map markers, wp maps, wp google maps, wp google map, easy map, map plugin, location, marker, latitude, longitude, map widget, admin, plugin, comments, gmaps, custom google maps
 Requires at least: 3.3
-Tested up to: 4.2.1
+Tested up to: 4.2.4
 Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
